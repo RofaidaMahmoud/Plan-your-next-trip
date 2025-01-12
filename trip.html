@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head> <link rel="stylesheet" href="style.css"> </head>
+    <header>
+        <title>
+            Registration form
+        </title>
+    </header>
+    <body>
+        <div class="video-container">
+            <video autoplay muted loop id="BGvideo">
+                <source src="videoBG3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <form id="next-trip-form" style="font-size: 18px; line-height: 1.6;">
+            <h1 id="title" style="font-size: 24px; margin-bottom: 20px;">Prepare your next trip with me!</h1>
+            <p id="description" style="font-size: 20px; margin-bottom: 20px;">
+                Please take a moment to get in touch, I will get back to you shortly.
+            </p>
+            <div style="padding: 15px;">
+                <label>Name</label>
+                <input type="text" name="name" id="name" required placeholder="Please enter your name." style="padding: 8px; font-size: 16px; width: 70%;"> 
+            </div>
+            <div style="padding: 15px;">
+                <label>E-mail address</label>
+                <input type="email" name="email" id="email" required placeholder="Please write a valid E-mail." style="padding: 8px; font-size: 16px; width: 70%;">
+            </div>
+            <div style="padding: 15px;">
+                <label>Phone number</label>
+                <input type="tel" name="Phone number" id="PhoneNumber" required placeholder="Please enter your phone number." style="padding: 8px; font-size: 16px; width: 70%;">
+            </div>
+            <div style="padding: 15px;">
+                <label>Gender</label>
+                <div>
+                    <input type="radio" name="Gender" id="Male" value="Male">
+                    <label class="inline-label" style="font-size: 16px;"> Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="Gender" id="Female" value="Female">
+                    <label class="inline-label" style="font-size: 16px;">Female</label>
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <label>Please select where you'd like to travel.</label>
+                <select name="Cities" id="Cities" style="padding: 8px; font-size: 16px; width: 70%;">
+                    <option value="">Choose one</option>
+                    <option value="Luxor">Luxor</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Aswan">Aswan</option>
+                    <option value="Sohag">Sohag</option>
+                    <option value="Sharm El-Sheikh">Sharm El-Sheikah</option>
+                    <option value="Minya">Minya</option>
+                    <option value="Giza">Giza</option>
+                    <option value="Suez">Suez</option>
+                    <option value="Hurghada">Hurghada</option>
+                    <option value="Faiyum">Faiyum</option>
+                </select>
+            </div>
+            <div style="padding: 15px;">
+                <label>Please check the services that you need</label>
+                <div>
+                    <input type="checkbox" name="Airline-tickets" id="Airline-tickets">
+                    <label class="inline-label" style="font-size: 16px;">Airline Tickets</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Rental-Car" id="Rental-Car">
+                    <label class="inline-label" style="font-size: 16px;">Rental Car</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hotel-Accomadation" id="Hotel-Accomadation">
+                    <label class="inline-label" style="font-size: 16px;">Hotel Accommodation</label>
+                </div>
+            </div>
+            <div style="padding: 15px;">
+                <form>
+                    <input type="file" id="TheFile" name="File" style="padding: 8px; font-size: 16px; width: 70%;">
+                    <input type="submit" style="padding: 10px 20px; font-size: 16px;">
+                </form>
+            </div>
+            <div style="padding: 15px;">
+                <label>Leave a message</label>
+                <textarea name="Message" id="TheMessage" style="padding: 8px; font-size: 16px; width: 70%; height: 100px;"></textarea>
+            </div>
+            <div style="padding: 15px;">
+                <input type="submit" value="Submit" style="padding: 10px 20px; font-size: 16px;">
+                <input type="reset" value="Reset" style="padding: 10px 20px; font-size: 16px;">
+            </div>
+        </form>
+        <p>Please click on one of the following buttons depending on where you'd like to go!</p>
+        <nav>
+            <ul>
+                <h1><li>Registration form</li>
+                <li><a href="luxor.html">Luxor</a></li>
+                <li><a href="cairo.html">Cairo</a></li>
+                <li><a href="sharmelsheikh.html">Sharm El-Sheikh</a></li>
+                <li><a href="giza.html">Giza</a></li> </h1>
+            </ul>
+        </nav>
+    </body>
+</html>
+
+
+
